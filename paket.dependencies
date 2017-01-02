@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+framework: >= net462
+nuget Akka
+nuget Akka.Remote
+nuget Google.ProtocolBuffers
+nuget Helios
+nuget Newtonsoft.Json
+nuget System.Collections.Immutable
+nuget Topshelf
