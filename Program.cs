@@ -1,6 +1,6 @@
 ﻿using Topshelf;
 
-namespace Akka.NET_Windows_Service
+namespace AkkaHost
 {
     public static class Program
     {

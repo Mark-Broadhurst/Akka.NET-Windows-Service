@@ -6,10 +6,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{68E2C06E-363C-4830-AA2E-BEBFE7A66F74}</ProjectGuid>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Akka.NET_Windows_Service</RootNamespace>
-    <AssemblyName>Akka.NET_Windows_Service</AssemblyName>
+    <RootNamespace>AkkaHost</RootNamespace>
+    <AssemblyName>AkkaHost</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

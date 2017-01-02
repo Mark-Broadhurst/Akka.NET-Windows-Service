@@ -1,6 +1,6 @@
 ﻿using Akka.Actor;
 
-namespace Akka.NET_Windows_Service
+namespace AkkaHost
 {
     public class AkkaHost
     {
