@@ -3,6 +3,5 @@ Akka.Remote
 Google.ProtocolBuffers
 Helios
 Newtonsoft.Json
-Paket
 System.Collections.Immutable
 Topshelf
