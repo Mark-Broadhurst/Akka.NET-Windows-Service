@@ -2,7 +2,17 @@ version: 1.0.{build}
 configuration: Release
 build:
   project: Akka.NET-Windows-Service.sln
-  publish_nuget: true
-  publish_nuget_symbols: true
-  include_nuget_references: true
   parallel: true
+
+deploy:
+  release: AkkaHost-v$(appveyor_build_version)
+  description: 'Release description'
+  provider: GitHub
+  auth_token:
+    secure: AKvncEaWXvKGoLiiYaxf3NvS+ZIlExjXhc9hugLtkig2sot+nSYrxN15M8IjkN3A
+  artifact: /.*\.zip/
+  draft: false
+  prerelease: false
+  on:
+    branch: master
+    appveyor_repo_tag: true
